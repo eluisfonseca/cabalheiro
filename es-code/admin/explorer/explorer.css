@@ -1,0 +1,249 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;	
+}
+a {
+	text-decoration: none;	
+}
+#explorer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	text-decoration: none;
+	background-color: #FFF;
+	text-align: left;
+	overflow: auto;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	height: auto;
+	width: auto;
+	margin: 10px;
+	padding: 0px;
+	clear: both;
+	float: none;
+	border: 1px solid #999;
+	left: 10px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+}
+#upload {
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	clear: both;
+	float: none;
+	height: auto;
+	width: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	overflow: auto;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	left: 0px;
+	top: 23px;
+	right: 0px;
+	bottom: 46px;
+}
+#botao1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #333;
+	background-color: #FFF;
+	text-align: center;
+	border: 1px solid #666;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: auto;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	height: auto;
+	width: 98px;
+	left: auto;
+	top: auto;
+	right: 120px;
+	bottom: 10px;
+	cursor: pointer;
+	margin: 0px;
+}
+#botao2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #333;
+	background-color: #FFF;
+	text-align: center;
+	border: 1px solid #666;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: auto;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	height: auto;
+	width: 98px;
+	left: auto;
+	top: auto;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	margin: 0px;
+}
+#caminho {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: none;
+	background-color: #FFF;
+	text-align: left;
+	margin: 0px;
+	padding: 5px;
+	clear: both;
+	float: none;
+	width: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	overflow: auto;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: auto;
+	height: auto;
+}
+#ops {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: none;
+	height: auto;
+	width: 200px;
+	overflow: auto;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	left: 0px;
+	top: 23px;
+	right: auto;
+	bottom: 46px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+#ops .botao {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #333;
+	background-color: #FFF;
+	text-align: center;
+	border: 1px solid #666;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: auto;
+	position: static;
+	visibility: visible;
+	z-index: auto;
+	height: auto;
+	width: auto;
+	cursor: pointer;
+	clear: both;
+	float: none;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+}
+#pasta {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: none;
+	height: auto;
+	width: auto;
+	overflow: auto;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	left: 200px;
+	top: 23px;
+	right: 0px;
+	bottom: 46px;
+}
+#pasta1 {
+	margin: 0px;
+	padding: 5px;
+	clear: both;
+	float: none;
+	height: auto;
+	width: auto;
+	overflow: auto;
+	position: static;
+	visibility: visible;
+	z-index: auto;
+}
+#pasta .ficheiro {
+	overflow: auto;
+	position: static;
+	visibility: visible;
+	z-index: auto;
+	cursor: pointer;
+	padding: 2px;
+	clear: both;
+	float: none;
+	height: auto;
+	width: auto;
+}
+#pasta .ficheiro:hover {
+	overflow: auto;
+	position: static;
+	visibility: visible;
+	z-index: auto;
+	background-color: #FFC;
+	cursor: pointer;
+	padding: 2px;
+	clear: both;
+	float: none;
+	height: auto;
+	width: auto;
+}

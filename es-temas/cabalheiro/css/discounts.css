@@ -1,0 +1,139 @@
+.disc-header-container {
+    color: #ffffff;
+    width: 300px;
+    height: 49px;
+    background: url(../img/header_bg.png);
+    -webkit-background-size: 100% 47px;
+    -moz-background-size: 100% 47px;
+    background-size: 100% 47px;
+    -o-background-size: 100% 47px;
+    background-size: 100% 47px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+#disc-content-container {
+    padding: 0px;
+    width: -webkit-calc(100% - 370px);
+    width: -moz-calc(100% - 370px);
+    width: calc(100% - 370px);
+    box-sizing: border-box;
+}
+
+#disc-content-container>h4 {
+    margin-bottom: 40px;
+}
+
+
+.disc-header-container h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.disc-entry-container {
+    margin-bottom: 50px;
+}
+
+.disc-logo-container {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.disc-logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.disc-info-container {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    width: 500px;
+    width: -webkit-calc(100% - 200px);
+    width: -moz-calc(100% - 200px);
+    width: calc(100% - 200px);
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.disc-info-container h5 {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.disc-info-container p {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;;
+}
+
+.disc-info-container a {
+    color: #000000;
+}
+
+.disc-info-container a:focus, .disc-info-container a:hover {
+    text-decoration: none;
+    color: #8d633a;
+}
+
+.disc-brand-code {
+    font-weight: 600;
+}
+
+#right-side-container {
+    padding-top: 0px;
+}
+
+
+@media (max-width: 1100px) {
+
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 100%;
+    }
+
+    #right-side-follow-container {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #disc-content-container {
+        width: 100%;
+    }
+
+    #right-side-container {
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 50%;
+    }
+
+    #right-side-follow-container {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 100%;
+    }
+    #right-side-follow-container {
+        padding: 0px;
+    }
+}
+
+
+@media (max-width : 350px) {
+
+}

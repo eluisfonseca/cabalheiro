@@ -1,0 +1,2 @@
+<?PhP
+session_start();

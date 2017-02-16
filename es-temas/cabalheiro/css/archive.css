@@ -1,0 +1,217 @@
+#right-side-container {
+    padding-top: 0px;
+}
+
+#arc-header {
+    margin-bottom: 30px;
+}
+
+.arc-header-container {
+    color: #ffffff;
+    width: 300px;
+    height: 49px;
+    background: url(../img/header_bg.png);
+    -webkit-background-size: 100% 47px;
+    -moz-background-size: 100% 47px;
+    background-size: 100% 47px;
+    -o-background-size: 100% 47px;
+    background-size: 100% 47px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 3px;
+    float: left;
+    display: inline-block;
+}
+
+#arc-content-container {
+    padding: 0px;
+    width: -webkit-calc(100% - 370px);
+    width: -moz-calc(100% - 370px);
+    width: calc(100% - 370px);
+    box-sizing: border-box;
+}
+
+#arc-content-container>h4 {
+    margin-bottom: 40px;
+}
+
+
+.arc-header-container h2 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4px;
+    font-size: 27px;
+}
+
+#arc-cat-selector-container {
+    padding: 0px;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+    padding-left: 0px;
+}
+
+#arc-cat-selector-container ul {
+    margin-bottom: 0px;
+}
+
+#arc-list-container {
+    clear: both;
+    padding: 0px;
+}
+
+#arc-cat-selector-container ul {
+    padding: 0px;
+}
+
+#arc-cat-selector-container ul li {
+    display: inline-block;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#arc-cat-selector-container a {
+    color: #808080;
+}
+
+#arc-cat-selector-container a:hover, #arc-cat-selector-container a:focus {
+    color: #8d633a;;
+    text-decoration: none;
+}
+
+#all-parent {
+    margin-right: 30px!important;
+}
+
+#arc-cat-selector-container ul li i {
+    display: block;
+    visibility: hidden;
+    color: #8d633a;;
+}
+
+#arc-cat-selector-container ul li.active i {
+    display: block;
+    visibility: visible;
+    text-align: center;
+    color: #8d633a;
+}
+
+
+#arc-cat-selector-container ul li.active a{
+    color: #8d633a;
+}
+
+.arc-entry-container {
+    display: inline-block;
+    clear: both;
+    margin-bottom: 30px;
+    padding: 0px;
+    width: 100%;
+}
+
+.arc-entry-image-container {
+    padding: 0px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.arc-entry-image-container img {
+    width: 100%;
+}
+
+.arc-entry-info-container h5, .arc-entry-info-container h1, .arc-entry-info-container h2, .arc-entry-info-container h3, .arc-entry-info-container h4, .arc-entry-info-container h6 {
+    text-transform: none;
+    letter-spacing: 1px;
+    margin-top: 0px;
+}
+
+.arc-entry-info-container p {
+    font-size: 13px;
+    max-height: 100px;
+}
+
+.arc-entry-info-container a {
+    color: #000000;
+}
+
+.arc-entry-info-container a:hover, .arc-entry-info-container a:focus {
+    text-decoration: none;
+    color: #8d633a;
+}
+
+@media (max-width: 1500px) {
+    #arc-header {
+        margin-bottom: 0px;
+    }
+
+    .arc-header-container {
+        margin-bottom: 15px;
+    }
+
+    #arc-cat-selector-container {
+        width: 100%;
+        margin: 15px 0px;
+        padding-left: 0px;
+    }
+}
+@media (max-width: 1105px) {
+
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 100%;
+    }
+
+    #right-side-follow-container {
+        padding-left: 0px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    #arc-content-container {
+        width: 100%;
+    }
+
+    .arc-header-container {
+        margin-bottom: 15px;
+    }
+
+    #right-side-container {
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 50%;
+    }
+
+    #right-side-follow-container {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 100%;
+    }
+    #right-side-follow-container {
+        padding: 0px;
+    }
+
+    #arc-cat-selector-container {
+        padding-left: 0px;
+        display: block;
+        width: 100%;
+        margin: 15px 0px;
+    }
+}
+
+
+@media (max-width : 350px) {
+
+}
+

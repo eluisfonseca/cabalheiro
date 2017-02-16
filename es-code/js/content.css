@@ -1,0 +1,25 @@
+@charset "utf-8";
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	color: #333;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: right;
+}
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	color: #333;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: right;
+}

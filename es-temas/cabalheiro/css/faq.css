@@ -1,0 +1,112 @@
+.faq-header-container {
+    color: #ffffff;
+    width: 300px;
+    height: 49px;
+    background: url(../img/header_bg.png);
+    -webkit-background-size: 100% 47px;
+    -moz-background-size: 100% 47px;
+    background-size: 100% 47px;
+    -o-background-size: 100% 47px;
+    background-size: 100% 47px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+#faq-content-container {
+    padding: 0px;
+    width: -webkit-calc(100% - 370px);
+    width: -moz-calc(100% - 370px);
+    width: calc(100% - 370px);
+    box-sizing: border-box;
+}
+
+.faq-header-container h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.faq-title {
+    width: 100%;
+}
+
+.faq-title h5{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+.faq-entry-container {
+    margin-bottom: 50px;
+}
+
+.faq-entry-container p, .faq-entry-container ol, .faq-entry-container li, .faq-entry-container ul {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.faq-entry-container li {
+    margin-bottom: 10px;
+}
+
+.faq-text-container {
+    font-family: 'Montserrat-light',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#right-side-container {
+    padding-top: 0px;
+}
+
+#right-side-container > .side-add-container {
+    padding-top: 0px;
+}
+
+@media (max-width: 1100px) {
+
+
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 100%;
+    }
+
+    #right-side-follow-container {
+        padding-left: 0px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #faq-content-container {
+        width: 100%;
+    }
+
+    #right-side-container {
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 50%;
+    }
+
+    #right-side-follow-container {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    #right-side-newsletter-container, #right-side-follow-container {
+        width: 100%;
+    }
+    #right-side-follow-container {
+        padding: 0px;
+    }
+}
+
+
+@media (max-width : 350px) {
+
+}
